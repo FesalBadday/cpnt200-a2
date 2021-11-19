@@ -13,7 +13,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -26,7 +26,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -38,13 +38,13 @@ collections:
     folder: "content/testimonials"
     format: "frontmatter"
     create: true
-    slug: "{{fields.quote}} - {{fields.author.name}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: Quote, name: quote, widget: string }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
       - label: Author
         name: author
         widget: object
         fields:
           - { label: Name, name: name, widget: string }
           - { label: Avatar, name: avatar, widget: image }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
