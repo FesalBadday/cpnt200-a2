@@ -1,4 +1,4 @@
-# Assignment 2 - Netlify CMS Admin Panel & Collections
+# Netlify CMS Admin Panel & Collections
 
 ---
 
