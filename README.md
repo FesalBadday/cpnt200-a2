@@ -4,9 +4,9 @@
 
 **Author :** Fesal Badday
 
-**Repo :** [Github Repo](https://github.com/FesalBadday/cpnt200-a2)
+**Repo :** [Github Repo](https://github.com/FesalBadday/netlify-cms-admin-panel)
 
-**Site :** [Netlify Page](https://cpnt200-a2.netlify.app)
+**Site :** [Netlify Page](https://cpnt200-a2.netlify.app/admin)
 
 ---
 
